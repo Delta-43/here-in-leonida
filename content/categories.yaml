@@ -1,0 +1,42 @@
+# Categories. Totals are null until confirmed in game (see the counts guide-sites report in docs).
+# version: 1 marks the version 1 scope.
+categories:
+  - id: cocaine-flamingo
+    name: Cocaine flamingos
+    group: collectible
+    colour: "#ff5fa2"
+    spoiler: location
+    total: null # reported 125
+    required_for_100: null # reported 100
+    version: 1
+  - id: waink-scan
+    name: WAiNK scans
+    group: collectible
+    colour: "#4fd1c5"
+    spoiler: location
+    total: null # reported 112
+    required_for_100: null # reported 100
+    version: 1
+  - id: stunt-jump
+    name: Stunt jumps
+    group: activity
+    colour: "#f6ad55"
+    spoiler: none
+    total: null # reported 397
+    required_for_100: null # reported 300
+    version: 1
+  - id: collectible-card
+    name: Collectible cards
+    group: collectible
+    colour: "#b794f4"
+    spoiler: location
+    total: null
+    required_for_100: null
+    version: 1
+  - id: landmark
+    name: Landmarks
+    group: place
+    colour: "#90cdf4"
+    spoiler: none
+    total: null
+    required_for_100: null

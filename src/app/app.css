@@ -1,0 +1,54 @@
+/* Placeholder theme. The visual direction is still open; replace these tokens when it is chosen. */
+:root {
+  color-scheme: dark;
+  --bg: #0b1d2a;
+  --surface: rgb(12 22 32 / 85%);
+  --text: #e8eef2;
+  --muted: #9fb3c0;
+  font-family: system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  height: 100dvh;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.map {
+  position: fixed;
+  inset: 0;
+}
+
+.brand {
+  position: fixed;
+  top: max(12px, env(safe-area-inset-top));
+  left: max(12px, env(safe-area-inset-left));
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: var(--surface);
+  pointer-events: none;
+}
+
+.brand h1 {
+  margin: 0;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+}
+
+.brand p {
+  margin: 2px 0 0;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.notice {
+  padding: 96px 24px;
+  max-width: 40rem;
+}

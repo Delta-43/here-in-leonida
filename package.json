@@ -1,0 +1,38 @@
+{
+  "name": "here-in-leonida",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "license": "AGPL-3.0-only",
+  "description": "An interactive map of Leonida: every location, a 100% tracker, routes and spoiler controls. Fan project.",
+  "packageManager": "bun@1.4.5",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173 --strictPort",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome check .",
+    "format": "biome check --write .",
+    "test": "bun test src scripts schema",
+    "test:e2e": "playwright test",
+    "validate": "bun scripts/validate-content.ts",
+    "size": "bun scripts/check-size.ts",
+    "check": "bun run typecheck && bun run lint && bun run test && bun run validate && bun run build && bun run size"
+  },
+  "dependencies": {
+    "@preact/signals": "^2.11.4",
+    "idb-keyval": "^6.3.0",
+    "maplibre-gl": "^6.19.0",
+    "pmtiles": "^4.5.0",
+    "preact": "^11.2.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.6.9",
+    "@playwright/test": "^1.65.1",
+    "@preact/preset-vite": "^2.10.6",
+    "@types/bun": "^1.4.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "zod": "^4.6.7"
+  }
+}

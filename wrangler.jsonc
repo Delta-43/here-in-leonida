@@ -1,0 +1,10 @@
+{
+  // Cloudflare Workers with static assets. Deploy: bunx wrangler deploy (after bun run build).
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "here-in-leonida",
+  "compatibility_date": "2026-11-26",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}
