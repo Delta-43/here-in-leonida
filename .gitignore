@@ -1,0 +1,21 @@
+node_modules/
+dist/
+*.tsbuildinfo
+test-results/
+playwright-report/
+.wrangler/
+.env
+.env.*
+!.env.example
+
+# Generated data and tiles (built in CI, stored in R2)
+public/data/
+tiles/
+
+# Upstream source checkouts and private captures
+.cache/
+tools/capture/output/
+
+# Personal AI settings
+CLAUDE.local.md
+.claude/settings.local.json
