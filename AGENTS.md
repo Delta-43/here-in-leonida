@@ -70,4 +70,4 @@ Code: AGPL-3.0 (`LICENSE`). Content and data: CC BY 4.0 (`LICENSE-CONTENT`). Thi
 
 ## Plans and decisions
 
-Research, plans and the decision log live on the private `planning` branch, not in this tree. Read them with `git show planning:README.md` (index) and `git show planning:10-decisions.md`. If the branch is missing, ask the maintainer.
+The maintainer keeps research notes and the decision log outside this repository. Do not add plans, research or decision logs here; put lasting design facts in `docs/` and the reasoning in the pull request description.
