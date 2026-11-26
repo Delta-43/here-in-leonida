@@ -26,7 +26,7 @@
 
 ## 🗺️ What it does
 
-A static web app that draws Leonida with MapLibre and keeps every position in game-world metres. Locations are Markdown files in [`content/`](content/), checked against a schema in CI and built into small JSON files the map loads per category. Your progress stays in your browser; there are no accounts and no cookies.
+A static web app that draws Leonida with MapLibre and keeps every position in game-world metres. Locations are Markdown files in [`content/`](content/), checked against a schema in CI. Next, a build step will turn them into small JSON files the map loads per category, and a tracker will keep your progress in your browser. There will be no accounts and no cookies.
 
 ## 🧠 Why this design
 
